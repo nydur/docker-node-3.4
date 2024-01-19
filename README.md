@@ -8,7 +8,7 @@
 
 `docker build . -t <image_name>` build the image from the Dockerfile
 
-`docker run -dp 9090:8080 express-app:v0.0.1` to run the container
+`docker run -dp 9090:8080 <image_name>:v0.0.1` to run the container
 
 `docker exec -it <container_id> sh` exec into the running container
 
