@@ -1,4 +1,4 @@
-# 3.4 Containerize an application for repository
+# 3.4 Containerize an application for repository Assignment
 
 ## Build image
 `docker build . -t <image_name>`
